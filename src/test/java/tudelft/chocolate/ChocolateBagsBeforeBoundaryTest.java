@@ -7,7 +7,8 @@ public class ChocolateBagsBeforeBoundaryTest {
     @Test
     public void totalIsBiggerThanAmountOfBars() {
         ChocolateBags bags = new ChocolateBags();
-        int result = bags.calculate(1, 1, 10);
+        //int result = bags.calculate(1, 1, 10);
+        int result = bags.calculate(1, 1, 5);
         Assertions.assertEquals(-1, result);
     }
 
